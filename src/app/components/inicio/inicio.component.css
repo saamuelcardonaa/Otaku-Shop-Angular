@@ -1,0 +1,48 @@
+.carousel-caption p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.carousel {
+  max-height: 28.125rem;
+  overflow: hidden;
+}
+
+.download-btn {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+  background-color: var(--hover-bg-color) !important;
+}
+
+.card {
+  background-color: #1f1f2e;
+  color: white;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-footer {
+  background-color: transparent;
+  border-top: none;
+}
+
+.card-img-top {
+  height: 450px;
+  object-fit: contain;
+  padding: 1rem;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap');
+
+:host {
+  display: block;
+  background-color: #121212;
+  font-family: 'Lexend', sans-serif;
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+.text-accent {
+  color: #ff5959;
+}
+
+.text-price {
+  color: #ffd369;
+}
+
+.descripcion {
+  line-height: 1.6;
+}
+
+.detalle-box {
+  background-color: #1e1e1e;
+  border: 1px solid #2a2a2a;
+}
+
+.btn-accent {
+  background-color: #ff5959;
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-accent:hover {
+  background-color: #e94e4e;
+  transform: scale(1.02);
+}

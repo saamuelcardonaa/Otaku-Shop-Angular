@@ -1,0 +1,8 @@
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  body, h1, h2, h3, p, label, input, button {
+    font-family: 'Lexend', sans-serif;
+  }
