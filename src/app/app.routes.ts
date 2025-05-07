@@ -1,7 +1,6 @@
 import { Routes } from '@angular/router';
-import { InicioComponent } from './components/inicio/inicio.component'; // 🔹 AÑADIDO
+import { InicioComponent } from './components/inicio/inicio.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
-import { NotFoundComponent } from './components/not-found/not-found.component';
 import { CookiesComponent } from './components/cookies/cookies.component';
 import { AvisoLegalComponent } from './components/aviso-legal/aviso-legal.component';
 import { FunkoLuffyComponent } from './components/productos/funko-luffy/funko-luffy.component';
@@ -24,8 +23,5 @@ export const routes: Routes = [
   // RUTAS DE PRODUCTOS
   { path: 'producto/funko-luffy', component: FunkoLuffyComponent },
   { path: 'producto/funko-gojo', component: FunkoGojoComponent },
-  { path: 'producto/funko-tanjiro', component: FunkoTanjiroComponent },
-
-  // Página 404
-  { path: '**', component: NotFoundComponent }
+  { path: 'producto/funko-tanjiro', component: FunkoTanjiroComponent }
 ];
